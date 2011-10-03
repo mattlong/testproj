@@ -3,7 +3,7 @@ var app = require('express').createServer();
 
 var fibonacci = function(n, callback) {
     if (n <= 2) {
-        callback(null, 1);
+        callback(null, 2);
         return;
     }
     async.series({
